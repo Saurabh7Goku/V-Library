@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/style.css">
+  <title>A Virtual Library</title>
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="overlay has-fade"></div>
+
+    <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+        <a href="/" class="header__logo">
+          <img src="images/lib-logo.jpg" alt="Library Logo"/>
+        </a>
+
+        <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <div class="header__links hide-for-mobile">
+          <a href="#">Home</a>
+          <a href="#footer">Contact</a>
+          <a href="#">Content</a>
+          <a href="https://github.com/Saurabh7Goku" target="blank">More Projects</a>
+        </div>
+        <a href="/auth/register.html" class="button header__cta hide-for-mobile">Login</a>
+    </nav>
+    <div id="mySidenav" class="sidenav">
+      <a href="#feature" id="about">Feature Books</a>
+      <a href="#trends" id="blog">Trends</a>
+      <a href="#Tech" id="projects">Tech</a>
+      <a href="#Novels" id="contact">Novels</a>
+    </div>
+
+    <div class="header__menu has-fade">
+      <a href="">Home</a>
+      <a href="">Content</a>
+      <a href="">Contact</a>
+      <a href="">More Projects</a>
+    </div>
+
+  </header>
+
+  <section class="hero">
+    <div class="container">
+        <div class="hero__image"></div>
+        <div class="hero__text container--pall">
+          <h1>
+            WelCome To Virtual Library
+          </h1>
+          <p>
+            Here you can search any book you want to read 
+          </p>
+          <a href="/portfolio/index.html" class="button hero__cta" target="blank">About Me</a>
+        </div>
+    </div>
+  </section>
+
+  <section id="feature">
+    <section class="feature">
+      <div class="feature__content container container--pall">
+
+          <div class="feature__intro">
+              <h2>Explore more books now with the Virtual library</h2>
+              <p>
+                choose from what The World is Reading Right Now!!!
+              </p>
+          </div>
+      
+          <div class="feature__grid">
+            <div class="feature__item">
+              <div class="feature__title">
+                Most Viewed
+              </div>
+              <div class="feature__icon"><img src="images/Harry Potter and the Philosopher's Stone.jpg"height="350px" /></div>
+              <div class="feature__description">
+                Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday....
+              </div>
+            </div>
+      
+            <div class="feature__item">
+              <div class="feature__title">
+                Most rated
+              </div>
+              <div class="feature__icon"><img src="images/The_Lord_of_the_Rings.jpg"height="350px" /></div>
+              <div class="feature__description">
+                The Lord of the Rings is an epic, high fantasy novel by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the world at some distant time in the past, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually....
+              </div>
+            </div>
+      
+            <div class="feature__item">
+              <div class="feature__title">
+                Best Sellers
+              </div>
+              <div class="feature__icon"><img src="images/The Vanishing Half.jpg" height="350px"></div>
+              <div class="feature__description">
+
+                The Vanishing Half is a historical fiction novel by American author Brit Bennett. It is her second novel and was published by Riverhead Books in 2020. The novel debuted at number one on The New York Times fiction best-seller list. HBO acquired the rights to develop.... 
+                </div>
+            </div>
+      
+            <div class="feature__item">
+              <div class="feature__title">
+                Science Fiction
+              </div>
+              <div class="feature__icon"><img src="images/dark matter.jpg" width="225px" height="350px"/></div>
+              <div class="feature__description">
+                Dark Matter is a brilliantly plotted tale that is at once sweeping and intimate, mind-bendingly strange and profoundly human—a relentlessly surprising science-fiction thriller about choices, paths not taken, and how far we’ll go to claim the lives we dream of.
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+  </section>
+  <section class="articles">
+  <div id="trends">
+  <div class="article__content container container--pall">
+    <h2>Latest trends</h2>
+    <div class="article__grid">
+      <a href="#" class="article__item">
+        <div class="article__image" style="background-image: url('images/Me_Before_You.jpg')"></div>
+        <div class="article__text">
+          <div class="article__author">By Jojo Moyes</div>
+          <div class="article__title">After You</div>
+          <div class="article__description">Twenty-six-year-old Louisa Clark lives with her working-class family. Unambitious and with few qualifications, she feels constantly outshone by her younger sister, Treena, an outgoing single mother. Louisa, who helps support her family, loses her job at a local café when the café closes. She goes to the Job Center and, after several failed attempts...</div>
+        </div>
+      </a>
+
+      <a href="#" class="article__item">
+        <div class="article__image" style="background-image: url('images/The_Notebook.jpg')"></div>
+        <div class="article__text">
+          <div class="article__author">By Nicholas Sparks</div>
+          <div class="article__title">The NoteBook</div>
+          <div class="article__description">The novel opens with Noah Calhoun, an old man, reading to a woman in a nursing home. He tells her the following story:
+            Noah, 24, returns from World War II to his town of New Bern, North Carolina. He finishes restoring an antebellum-style house, after his father's death. Meanwhile, Allie, 24, sees the house in the newspaper and decides to pay him a visit....</div>
+        </div>
+      </a>
+
+      <a href="#" class="article__item">
+        <div class="article__image" style="background-image: url('images/Where\ the\ Crawdads\ Sing.jpg')"></div>
+        <div class="article__text">
+          <div class="article__author">By Delia Owens</div>
+          <div class="article__title">Where The Crawdads Sing</div>
+          <div class="article__description">Where the Crawdads Sing is a 2018 novel by American author Delia Owens. It has topped The New York Times Fiction Best Sellers of 2019 and The New York Times Fiction Best Sellers of 2020 for a combined 32 non-consecutive weeks. As of late January 2021, the book has spent 124 weeks on the best seller list.[5] The story follows two timelines that slowly intertwine.....</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" class="article__item">
+        <div class="article__image" style="background-image: url('images/The\ Last\ Thing\ He\ told\ Me.jpg')">
+        </div>
+        <div class="article__text">
+          <div class="article__author">By Laura Dave
+          </div>
+          <div class="article__title">The last Thing He Told Me</div>
+          <div class="article__description"> 
+            <p>'The Last Thing He Told Me' released in May 2021 and became an instant bestseller. This thriller follows the story of a woman who is in search of her husband after he has suddenly disappeared.
+              Hanna Hall is married to Owen Michaels for over a year and she is set on winning her 16-year-old step-daughter Bailey's affection; overall they are a happy family.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  </div>
+  </section>
+
+  <section class="articles2">
+    <div id="Tech">
+    <div class="article__content container container--pall">
+      <h2>Latest In Technologies</h2>
+      <div class="article__grid">
+  
+        <a href="#" class="article__item">
+          <div class="article__image" style="background-image: url('images/An\ Ugly\ Truth\ Inside\ Facebook\'s\ Battle\ for\ Domination.jpg')"></div>
+          <div class="article__text">
+            <div class="article__author">By Sheera Frenkel and Cecilia Kang</div>
+            <div class="article__title">An Ugly Truth: Inside Facebook's Battle for Domination</div>
+            <div class="article__description">An Ugly Truth covers how Facebook, while connecting us, is also mishandling data, amplifying fake news, and spreading hate speech. It's impressively researched, well written and gives an objective point of view. It's not just a juicy read about the mistakes leadership made...</div>
+          </div>
+        </a>
+  
+        <a href="#" class="article__item">
+          <div class="article__image" style="background-image: url('images/Press\ Reset\ Ruin\ and\ Recovery\ in\ the\ Video\ Game\ Industry.jpg')"></div>
+          <div class="article__text">
+            <div class="article__author">By Jason Schreier</div>
+            <div class="article__title">Press Reset: Ruin and Recovery in the Video Game Industry</div>
+            <div class="article__description">Based on dozens of first-hand interviews that cover the development of landmark games—Bioshock Infinite, Epic Mickey, Dead Space, and more—on to the shocking closures of the studios that made them, Press Reset tells the stories of how real people are affected by game studio shutdowns, and how they recover, move on, or ....</div>
+          </div>
+        </a>
+  
+        <a href="#" class="article__item">
+          <div class="article__image" style="background-image: url('images/Minecraft\ Bite-Size\ Builds.jpg')"></div>
+          <div class="article__text">
+            <div class="article__author">By Mojang Ab</div>
+            <div class="article__title">Minecraft Bite-Size Builds</div>
+            <div class="article__description">Learn how to design, build and customize 20 mini-projects in Minecraft, from firefighter planes and deep-sea submarines to hidden bunkers and mini arcade games. There's even a superhero flying school!.....</p>
+            </div>
+          </div>
+        </a>
+  
+        <a href="#" class="article__item">
+          <div class="article__image" style="background-image: url('images/Launch.jpg')">
+          </div>
+          <div class="article__text">
+            <div class="article__author">By Jeff Walker</div>
+            <div class="article__title">Launch (Updated & Expanded Edition) </div>
+            <div class="article__description"> 
+              <p>: How to Sell Almost Anything Online, Build a Business You Love, and Live the Life of Your Dreams. Everyone dreams of it. Sell some product on the internet. Make a million (or a few million) dollars, and retire to some Caribbean island – or, in the case of Jeff Walker, Durango, CO.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    </div>
+    </section>
+
+    <section class="articles">
+      <div id="Novels">
+      <div class="article__content container container--pall">
+        <h2>Famous Novels</h2>
+        <div class="article__grid">
+    
+          <a href="#" class="article__item">
+            <div class="article__image" style="background-image: url('images/The\ great\ gatsby.jpg')"></div>
+            <div class="article__text">
+              <div class="article__author">By F Scott Fitzgerald </div>
+              <div class="article__title">The Great Gatsby</div>
+              <div class="article__description">The Great Gatsby is the American novel on this list that remains, after many readings, an unquiet masterpiece whose mystery never fails to exert its power. The "jazz" side of Gatsby, amply represented by Baz Luhrmann's movie, remains seductive.The plot, ripped from the pages of a tabloid and crossed with a romantic novelette,....</div>
+            </div>
+          </a>
+    
+          <a href="#" class="article__item">
+            <div class="article__image" style="background-image: url('images/The\ scarlet\ letter.jpg')"></div>
+            <div class="article__text">
+              <div class="article__author">By Nathaniel Hawthorne</div>
+              <div class="article__title">Scarlet's Letter</div>
+              <div class="article__description">Nathaniel Hawthorne, describing "a tale of human frailty and sorrow", insisted that The Scarlet Letter was "a Romance", not a novel. This distinction, in his mind, was important. Where a novel, as he put it, "aims at a very minute fidelity, not merely to the possible, but to the probable and ordinary course of man's experience ....</div>
+            </div>
+          </a>
+    
+          <a href="#" class="article__item">
+            <div class="article__image" style="background-image: url('/images/The\ bell\ jar.jpg')"></div>
+            <div class="article__text">
+              <div class="article__author">By  Sylvia Plath</div>
+              <div class="article__title">The Bell Jar</div>
+              <div class="article__description">The Bell Jar details the life of Esther Greenwood, a college student who dreams of becoming a poet. She is selected for a month-long summer internship as a guest editor of Ladies' Day magazine, but her time in New York City is unfulfilling as she struggles with issues of identity and societal norms.....</p>
+              </div>
+            </div>
+          </a>
+    
+          <a href="#" class="article__item">
+            <div class="article__image" style="background-image: url('images/Underworld.jpeg')">
+            </div>
+            <div class="article__text">
+              <div class="article__author">By  Don DeLillo</div>
+              <div class="article__title">Underworld</div>
+              <div class="article__description"> 
+                <p>Underworld is the work of a writer wired into contemporary America from the ground up, spookily attuned to the weird vibrations of popular culture and the buzz of everyday, ordinary conversations on bus and subway. According to Joyce Carol Oates, he is “a man of frightening perception”, an all-American writer who sees and hears his country like no other....</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      </div>
+      </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <h1>Vir<span>tual</span>-Lib<span>rary</span></h1>
+        </div>
+        <h2>More ways to Contact</h2>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100005221384155" target="blank"><img src="https://img.icons8.com/dusk/64/000000/facebook-new--v2.png"/></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.linkedin.com/feed/" target="blank"><img src="https://img.icons8.com/dusk/64/000000/linkedin.png"/></a>
+          </div>
+          <div class="social-item">
+            <a href="https://twitter.com/home" target="blank"><img src="https://img.icons8.com/dusk/64/000000/twitter.png"/></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.instagram.com/itsme__goku/" target="blank"><img src="https://img.icons8.com/dusk/64/000000/instagram-new.png"/></a>
+          </div>
+          <div>
+            <a href="https://github.com/Saurabh7Goku" target="blank"><img src="https://img.icons8.com/bubbles/50/000000/github.png"/>/></a>
+          </div>
+        </div>
+        <p>Copyright © 2021 Saurabh Singh. All rights reserved</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+  <script src="app/js/script.js"></script>
+</body>
+</html>
