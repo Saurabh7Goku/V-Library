@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saurabh's Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/dist/login.css">
+</head>
+<body> 
+     <div class="wrapper">
+         <div class="headline">
+             <h1>Welcome To V-library</h1>
+         </div>
+         <form class="form" action="insert.php" method="post">
+            <div class="signup">
+                <div class="form-group">
+                    <input type="text" name =Full_name  placeholder="Full name" required="">
+                </div>
+                <div class="form-group">
+                    <input type="email" name = Email placeholder="Email" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" name = Password placeholder="Password" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" name = Password placeholder="Re-Enter Password" required="">
+                </div>
+                <button type="submit" class="btn">SIGN UP</button>
+                <div class="account-exist">
+                    Already have an account? <a href="#" id="login">Login</a>
+                </div>
+            </div>
+            <div class="signin"> 
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" required="">
+                </div>
+                <div class="forget-password">
+                    <div class="check-box">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Remember me</label>
+                    </div>
+                    <a href="forgetPass.html">Forget password?</a>
+                </div>
+                <button type="submit" class="btn">LOGIN</button>
+                <div class="account-exist">
+                    Create New a account? <a href="#" id="signup">Signup</a>
+                </div>
+            </div>
+         </form>
+     </div>
+
+    <script src="/app/js/jslogin.js"></script>
+</body>
+</html>
+
